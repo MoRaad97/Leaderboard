@@ -1,1 +1,1 @@
-console.log("Project SetUp!!")
+import './styles/index.css';
