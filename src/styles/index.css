@@ -29,16 +29,16 @@ form {
 }
 
 .recent-scores {
-    width: 250px;
-  }
+  width: 250px;
+}
 
 .recent-scores ul > li {
-    padding: 5px;
-    background-color: #ddd;
+  padding: 5px;
+  background-color: #ddd;
 }
 
 .recent-scores ul > li:nth-child(odd) {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 ul {
@@ -53,6 +53,6 @@ button {
 }
 
 input:last-child {
-    width: 40%;
-    align-self: flex-end;
+  width: 40%;
+  align-self: flex-end;
 }
