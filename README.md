@@ -10,15 +10,36 @@
 - Major languages: Html, Css , JS.
 - Technologies used : Webpack, GitHub, Git Flow.
 
-## Live Demo
-
-[](https://github.com/MoRaad97/Leaderboard)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
 - Clone the project `$ git clone git@github.com:MoRaad97/Leaderboard.git`
+- Open your project in VS code of any text editor that you love to use.
+- Install node js `npm install`
+- you can bulid the project `npm run build` and run it using the browser or live server or you can run it using `npm run start` or `npm run dev`.
+
+## How the API work
+ - Take quick look [here](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) about how to use this API.
+ - use this code to get new id for your game `const id = () => {
+  fetch("https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/", {
+    method: 'POST',
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+    body: JSON.stringify({
+     name: "My new game"
+    }),
+  }).then((data)=> {
+   return data.json()
+  }).then((myId)=> {
+    console.log(myId.result)
+  });
+};
+id()` 
+You can see the Id in the console of your browser.
+
 
 ## Authors
 
