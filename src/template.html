@@ -14,22 +14,17 @@
         <div class="recent-scores">
           <div class="title-refresh">
             <h2>Recent Scores</h2>
-            <button>Refresh</button>
+            <button id="refresh">Refresh</button>
           </div>
-          <ul>
-            <li>score 1</li>
-            <li>score 2</li>
-            <li>score 3</li>
-            <li>score 4</li>
-            <li>score 5</li>
+          <ul id="scores">
           </ul>
         </div>
         <!-- Add Score -->
         <div class="Add Your Score">
           <h2>Add Your Score</h2>
-          <form action="">
-            <input type="text " placeholder="Your Name" />
-            <input type="text " placeholder="Your Score" />
+          <form action="#" id="myForm">
+            <input required id="name" type="text " placeholder="Your Name" />
+            <input required id="score" type="range " placeholder="Your Score" />
             <input type="submit" value="Submit" />
           </form>
         </div>

@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Not Available](https://github.com/MoRaad97/Leaderboard)
+[](https://github.com/MoRaad97/Leaderboard)
 
 ## Getting Started
 
