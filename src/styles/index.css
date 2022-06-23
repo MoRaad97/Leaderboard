@@ -91,10 +91,11 @@ button {
   text-shadow: 0 2px 10px;
   font-size: 18px;
 }
+
 button:hover {
- transition: 1s;
- background-color: #d65a58;
- font-size: 20px;
+  transition: 1s;
+  background-color: #d65a58;
+  font-size: 20px;
   border-radius: 20px;
 }
 
