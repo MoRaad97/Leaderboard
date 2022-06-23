@@ -15,7 +15,7 @@ h1 {
   font-size: 60px;
   color: #b0211f;
   text-transform: uppercase;
-  text-shadow: 0px 10px 40px;
+  text-shadow: 0 10px 40px;
 }
 
 h2 {
@@ -23,8 +23,9 @@ h2 {
   font-size: 22px;
   color: #b0211f;
   text-transform: uppercase;
-  text-shadow: 0px 10px 40px;
+  text-shadow: 0 10px 40px;
 }
+
 .container {
   width: 100%;
   padding: 10px;
@@ -36,7 +37,7 @@ h2 {
 .title-refresh {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid #b0211f ;
+  border-bottom: 2px solid #b0211f;
 }
 
 form {
@@ -65,9 +66,8 @@ form {
 }
 
 .recent-scores ul > li:hover {
- font-size: 20px;
+  font-size: 20px;
 }
-
 
 .recent-scores ul > li:nth-child(odd) {
   background-color: #d65a58;
@@ -82,7 +82,7 @@ ul {
 
 button {
   height: 40px;
-  transform: translate(-7px,10px);
+  transform: translate(-7px, 10px);
   color: white;
   background-color: black;
   border-color: red;
@@ -92,13 +92,13 @@ button {
 }
 
 .input {
-width: 90%;
-height: 40px;
-margin: 0 auto;
-font-size: 22px;
-text-align: center;
-outline: none;
-border-radius: 10px;
+  width: 90%;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 22px;
+  text-align: center;
+  outline: none;
+  border-radius: 10px;
 }
 
 .input::placeholder {
@@ -127,17 +127,20 @@ input:last-child {
   border-radius: 14px;
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .container {
     flex-direction: column-reverse;
   }
+
   .add-score {
     width: 100%;
   }
+
   .recent-scores {
     width: 100%;
   }
-  h1{
+
+  h1 {
     font-size: 40px;
   }
 }
