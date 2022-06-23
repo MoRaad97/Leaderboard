@@ -1,3 +1,9 @@
+body {
+  height: 100vh;
+  background-image: url(./imgs/gaming-bg.jpg);
+  background-size: cover;
+}
+
 .project-section {
   display: flex;
   justify-content: center;
@@ -7,11 +13,21 @@
 h1 {
   text-align: center;
   font-size: 60px;
+  color: #b0211f;
+  text-transform: uppercase;
+  text-shadow: 0px 10px 40px;
 }
 
+h2 {
+  text-align: center;
+  font-size: 22px;
+  color: #b0211f;
+  text-transform: uppercase;
+  text-shadow: 0px 10px 40px;
+}
 .container {
   width: 100%;
-  padding: 100px;
+  padding: 10px;
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
@@ -20,6 +36,7 @@ h1 {
 .title-refresh {
   display: flex;
   justify-content: space-between;
+  border-bottom: 2px solid #b0211f ;
 }
 
 form {
@@ -29,30 +46,98 @@ form {
 }
 
 .recent-scores {
-  width: 250px;
+  min-height: 270px;
+  width: 40%;
+  background: #ffecec;
+  border: 5px solid #b0211f;
+  border-radius: 14px;
+}
+
+.recent-scores h2 {
+  margin-left: 5px;
 }
 
 .recent-scores ul > li {
   padding: 5px;
-  background-color: #ddd;
+  color: white;
+  background-color: rgb(43, 42, 42);
+  text-transform: capitalize;
 }
 
+.recent-scores ul > li:hover {
+ font-size: 20px;
+}
+
+
 .recent-scores ul > li:nth-child(odd) {
-  background-color: #eee;
+  background-color: #d65a58;
 }
 
 ul {
-  border: solid 1px;
+  border: none;
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
 button {
   height: 40px;
-  transform: translateY(10px);
+  transform: translate(-7px,10px);
+  color: white;
+  background-color: black;
+  border-color: red;
+  border-radius: 20px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 10px;
+}
+
+.input {
+width: 90%;
+height: 40px;
+margin: 0 auto;
+font-size: 22px;
+text-align: center;
+outline: none;
+border-radius: 10px;
+}
+
+.input::placeholder {
+  text-align: center;
+  font-size: 22px;
 }
 
 input:last-child {
   width: 40%;
-  align-self: flex-end;
+  align-self: center;
+  background-color: white;
+  color: black;
+  border: 1px solid #b0211f;
+  border-radius: 14px;
+  height: 40px;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-shadow: 0 3px 10px;
+}
+
+.add-score {
+  min-height: 270px;
+  width: 40%;
+  background: black;
+  border: 5px solid #b0211f;
+  border-radius: 14px;
+}
+
+@media (max-width:600px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .add-score {
+    width: 100%;
+  }
+  .recent-scores {
+    width: 100%;
+  }
+  h1{
+    font-size: 40px;
+  }
 }
