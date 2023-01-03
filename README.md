@@ -10,6 +10,8 @@
 - Major languages: Html, Css , JS.
 - Technologies used : Webpack, GitHub, Git Flow.
 
+## Live Demo
+- [Netlify Live Link](https://leaderboard-moraad.netlify.app/)
 
 ## Getting Started
 
@@ -22,24 +24,7 @@ To get a local copy up and running follow these simple steps.
 
 ## How the API work
  - Take quick look [here](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) about how to use this API.
- - use this code to get new id for your game `const id = () => {
-  fetch("https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/", {
-    method: 'POST',
-    headers: {
-      'Content-type': 'application/json; charset=UTF-8',
-    },
-    body: JSON.stringify({
-     name: "My new game"
-    }),
-  }).then((data)=> {
-   return data.json()
-  }).then((myId)=> {
-    console.log(myId.result)
-  });
-};
-id()` 
-You can see the Id in the console of your browser.
-
+ - use this link to get new id for your game (use postman or any online tool to fetch data) `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/` You can see the Id.
 
 ## Authors
 
