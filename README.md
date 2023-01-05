@@ -10,6 +10,11 @@
 - Major languages: Html, Css , JS.
 - Technologies used : Webpack, GitHub, Git Flow.
 
+## ScreenShots
+![ScreenShot_20230104172427](https://user-images.githubusercontent.com/89518488/210774644-1abedd56-953d-49de-ae44-f3a2e471c2d5.png)
+![ScreenShot_20230104172458](https://user-images.githubusercontent.com/89518488/210774654-e9ca1fbb-4bd8-492a-a492-8a579ca7fcf9.png)
+
+
 ## Live Demo
 - [Netlify Live Link](https://leaderboard-moraad.netlify.app/)
 
